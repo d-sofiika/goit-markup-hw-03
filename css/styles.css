@@ -48,7 +48,7 @@ img{
     padding-bottom: 120px;
 }
 
-.conteiner{
+.container{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -59,8 +59,9 @@ img{
 }
 /* Header */
 .header {
+    border-bottom: 1px solid #e7e9fc
 }
-.header-conteiner{
+.header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -130,7 +131,10 @@ img{
 .hero-section{
     background-color: #2E2F42;
     padding-top: 188px;
-    
+    padding-bottom: 188px;
+
+}
+.header-container{
     
 }
 .hero-title{
@@ -140,7 +144,7 @@ img{
     font-weight: 700;
     line-height:1.07; 
     letter-spacing: 1.12px;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -153,9 +157,11 @@ img{
     font-weight: 500;
     padding: 16px 32px;
     border-radius: 4px;
-    margin-bottom: 188px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    min-width: 169px;
+    
 
 }
 .btn:hover, .btn:focus{
@@ -164,8 +170,11 @@ img{
 }
 /* Section Two */
 .description{
-    margin-bottom: 120px;
-    margin-top: 120px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.description-container{
+    padding: 32px 0;
 }
 .title-list{
     display: flex;
@@ -177,17 +186,20 @@ img{
 }
 .title-item{
     color:  #2E2F42;
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
+    
 }
 
 .item-text{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
+    text-align: center;
 }
 /* Section Tree */
 .team{
@@ -205,7 +217,8 @@ img{
 }
 .team-list{
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .team-item{
     background-color: #FFF;
@@ -257,7 +270,7 @@ img{
 }
 .portfolio-image {
 }
-.portfolio-conteiner {
+.portfolio-container {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
@@ -279,11 +292,11 @@ img{
 /* Footer */
 .footer{
     background-color: #2E2F42;
-    padding-bottom: 100px;
-    padding-top: 101.5px;
+    padding: 100px 0;
 }
 .logo-footer{
-    padding-bottom: 17.5px;
+    padding-bottom: 16px;
+    display: inline-block;
 }
 .logo-white{
     color: #F4F4FD;
