@@ -78,8 +78,10 @@ img{
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    margin-right: 76px;
 
+}
+.logo-header{
+    margin-right: 76px;
 }
 .logo-black {
     color: #2E2F42;
@@ -196,7 +198,7 @@ img{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
-    text-align: center;
+    text-align: left;
 }
 /* Section Tree */
 .team{
@@ -286,7 +288,6 @@ img{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    margin-bottom: 24px;
 }
 /* Footer */
 .footer{
@@ -312,7 +313,6 @@ img{
     line-height: 1.5; 
     letter-spacing: 0.32px;
     width: 264px;
-    margin-top: 17.5px;
 
 }
 
